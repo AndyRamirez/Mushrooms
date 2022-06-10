@@ -34,6 +34,7 @@ The classification report and the resulting confusion matrix are shown below.
 
 ### Decision tree
 The classification report and the resulting confusion matrix are shown below. 
+
 ![matriz_arbol](https://user-images.githubusercontent.com/44073142/172980716-e5dc35e2-90d8-4dee-982c-9decc62c9f4e.png)
 ![reporte_arbol](https://user-images.githubusercontent.com/44073142/172980732-9b3b67f3-6a8d-48bd-949f-a12771cb457e.png)
 
@@ -47,4 +48,11 @@ The classification report is shown below, as well as the resulting confusion mat
 ## Results
 ### Cross-validation
 The purpose of performing the cross-validation was to know the behavior of the models tested with the Mushrooms database, for different values of k-folds. The following figures show graphs with different metrics for the KNN, Decision Trees and Random Forest models.
+The following graphs show the results obtained. 
+
+
+![2](https://user-images.githubusercontent.com/44073142/172984050-8cab5079-837c-462a-9d33-4453ebedbb7f.png)
+![3](https://user-images.githubusercontent.com/44073142/172984060-f5dada26-c0c3-4ec8-89e5-e6be821e6344.png)
+
+
 
