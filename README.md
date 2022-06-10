@@ -19,7 +19,8 @@ Also, a One Hot coding was performed to be able to work with numerical data.
 ## Machine learning models
 Three machine learning algorithms were tested for this database, which were **KNN, Decision Trees** and **Random Forest**.
 
-## Results for KNN
+## Testing
+### KNN
 For the implementation of this algorithm, different values of K nearest neighbors are tested, and both the error and the accuracy obtained are plotted.
 
 ![error_gr](https://user-images.githubusercontent.com/44073142/172978326-14e5b3cc-4118-4283-a3f5-c3b75387ebdf.png)
@@ -30,3 +31,20 @@ The classification report and the resulting confusion matrix are shown below.
 
 ![matriz_knn](https://user-images.githubusercontent.com/44073142/172980027-6793a20f-2f55-443d-b925-bf2c729abf68.png)
 ![reporte_knn](https://user-images.githubusercontent.com/44073142/172980061-aedcc439-b19a-43f7-b71b-9e48578ec70f.png)
+
+### Decision tree
+The classification report and the resulting confusion matrix are shown below. 
+![matriz_arbol](https://user-images.githubusercontent.com/44073142/172980716-e5dc35e2-90d8-4dee-982c-9decc62c9f4e.png)
+![reporte_arbol](https://user-images.githubusercontent.com/44073142/172980732-9b3b67f3-6a8d-48bd-949f-a12771cb457e.png)
+
+### Random Forest
+The classification report is shown below, as well as the resulting confusion matrix.
+
+![matriz_random](https://user-images.githubusercontent.com/44073142/172982242-f1f18026-53b6-4388-9a24-200a2498e17b.png)
+![reporte_random](https://user-images.githubusercontent.com/44073142/172982247-2e07dd37-a057-4dc4-aaae-34f0eb7c1142.png)
+
+
+## Results
+### Cross-validation
+The purpose of performing the cross-validation was to know the behavior of the models tested with the Mushrooms database, for different values of k-folds. The following figures show graphs with different metrics for the KNN, Decision Trees and Random Forest models.
+
