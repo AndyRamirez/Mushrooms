@@ -14,7 +14,7 @@ The mushrooms classification consists of 2 classes:
 
 ## Data processing
 The data analysis was performed in order to search for missing values or attributes that do not contribute to the database. Once the missing values were found in the database, these values were imputed, using the technique of imputation by mode. After this, two techniques (Cramer's V and Theil's U) were used to find the association of categorical variables, and thus be able to select the attributes to implement the machine learning models. 
-Also, a One Hot coding was performed to be able to work with numerical data.
+Also, a One Hot encoding was performed to be able to work with numerical data.
 
 ## Machine learning models
 Three machine learning algorithms were tested for this database, which were **KNN, Decision Trees** and **Random Forest**.
@@ -53,6 +53,18 @@ The following graphs show the results obtained.
 
 ![2](https://user-images.githubusercontent.com/44073142/172984050-8cab5079-837c-462a-9d33-4453ebedbb7f.png)
 ![3](https://user-images.githubusercontent.com/44073142/172984060-f5dada26-c0c3-4ec8-89e5-e6be821e6344.png)
+
+
+## Conclusions
+Different Machine Learning skills were applied in this project. 
+
+The Mushrooms database is a set that should be analyzed in depth, since it apparently had no missing values. When digging a little deeper into the classes by attribute, it was possible to observe these values, as well as attributes with only one class. 
+The method of imputation by mode was used, since the original database consisted of categorical values. Also, a variable association analysis was performed, which is equivalent to a correlation when working with numerical values. 
+The balance of the classes is an important factor; balanced classes were found for this data set. 
+In addition, a One Hot encoding was used to represent the attributes numerically and to implement the models.
+
+
+Of the three models applied (KNN, Decision Trees and Random Forest) and when implementing a cross validation, it was found that they have similar results, and that they improve their performance when training with larger values of k-folds.
 
 
 
