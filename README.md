@@ -28,5 +28,5 @@ For the implementation of this algorithm, different values of K nearest neighbor
 Observing this graphs, it was determined that the optimal value for K nearest neighbors is 12.
 The classification report and the resulting confusion matrix are shown below. 
 
-![reporte_knn](https://user-images.githubusercontent.com/44073142/172980061-aedcc439-b19a-43f7-b71b-9e48578ec70f.png)
 ![matriz_knn](https://user-images.githubusercontent.com/44073142/172980027-6793a20f-2f55-443d-b925-bf2c729abf68.png)
+![reporte_knn](https://user-images.githubusercontent.com/44073142/172980061-aedcc439-b19a-43f7-b71b-9e48578ec70f.png)
