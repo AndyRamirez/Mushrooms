@@ -14,3 +14,13 @@ The mushrooms classification consists of 2 classes:
 
 ## Data processing
 The data analysis was performed in order to search for missing values or attributes that do not contribute to the database. Once the missing values were found in the database, these values were imputed, using the technique of imputation by mode. After this, two techniques (Cramer's V and Theil's U) were used to find the association of categorical variables, and thus be able to select the attributes to implement the machine learning models. 
+Also, a One Hot coding was performed to be able to work with numerical data.
+
+## Machine learning models
+Three machine learning algorithms were tested for this database, which were **KNN, Decision Trees and Random Forest**.
+
+## Results for KNN
+For the implementation of this algorithm, different values of K nearest neighbors are tested, and both the error and the accuracy obtained are plotted.
+
+![accuracy_gr](https://user-images.githubusercontent.com/44073142/172978316-6015137e-f551-4468-93d7-5b8af5199da7.png)
+![error_gr](https://user-images.githubusercontent.com/44073142/172978326-14e5b3cc-4118-4283-a3f5-c3b75387ebdf.png)
