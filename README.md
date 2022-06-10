@@ -1,7 +1,7 @@
 # Mushrooms dataset project
 
 ## Summary
-In this project, *Machine Learning* knowledge is applied using the **Mushrooms database** for the classification of edible or poisonous mushrooms. This database is found [here](https://www.kaggle.com/datasets/uciml/mushroom-classification). 
+In this project, *Machine Learning* knowledge is applied using the **Mushrooms database** for the classification of edible or poisonous mushrooms. This database is found [here](https://www.kaggle.com/datasets/uciml/mushroom-classification). This project was developed in python programming language, in a google collaboratory notebook. This is the link to the .ipynb file. [Contribution guidelines for this project](docs/)
 
 ## Database Description
 This database contains 23 attributes in order to describe whether mushrooms are edible or not, as well as 8124 instances.
